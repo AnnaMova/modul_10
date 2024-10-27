@@ -1,0 +1,54 @@
+.btn {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+  box-shadow: none;
+  cursor: pointer;
+
+  
+  display: flex;
+  margin: 5px 10px;
+  padding: 10px 15px;
+  border-radius: 1px;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: white;
+  background: #be75eb;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+.btn_text {
+  margin-right: 10px;
+}
+
+.btn_icon {
+  width: 15px;
+  height: 15px;
+  font-size: 15px;
+}
+
+.bi{
+  display: none;
+}
+
+.btn--magic{
+  display: block;
+}
+
+
+@keyframes magic {
+  from {
+    transform: rotate(0);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

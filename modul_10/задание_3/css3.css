@@ -1,0 +1,93 @@
+
+
+body {
+
+    font-family: sans-serif;
+
+  }
+   
+
+ 
+  #chat {
+    border: 3px solid;
+    border-color: #b0cbe1;
+    padding: 10px;
+    height: 300px;
+    overflow-y: auto;
+    width: 390px;
+    margin-top: 5px;
+  }
+
+button {
+  background-color: #b0cbe1;
+  border: none;
+  width: 90px;
+  height: 30px;
+  gap: 10px;
+  
+ 
+  }
+
+Input {
+  width: 218px;
+  height: 28px;
+  border-color: #b0cbe1;
+  border-style: solid;
+  
+  
+}
+  .message {
+    margin-bottom: 5px;
+    width: 200px;
+  height: 30px;
+  padding: 5px;
+  margin-right: 5px;
+  }
+
+  .user-message {
+    background-color: white;
+    padding: 5px;
+    border-radius: 8px;
+    border: 3px;
+    margin-left: auto;
+    text-align: right;
+    border-color: #b0cbe1;
+  border-style: solid;
+  }
+
+  .server-message {
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: auto;
+    border-radius: 8px;
+    border: 3px;
+    text-align: right;
+    border-color: #b0cbe1;
+  border-style: solid;
+  }
+
+  .geo-message {
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    background-color: white;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: #9ec3e2;
+    margin-right: auto;
+    text-align: right;
+    margin-right: auto;
+  }
+  
+
+  .geo-location {
+    font-style: italic;
+    color: #555;
+    
+  }
+
+  .geo-link {
+    color: blue;
+    text-decoration: underline;
+  }
